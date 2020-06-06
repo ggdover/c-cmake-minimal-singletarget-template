@@ -3,7 +3,7 @@ project(myproj)
 
 # One of two lines present depending on if output is a library (shared or static) or an executable
 #add_library(mytarget)
-add_executable(mytarget mytarget.c)
+add_executable(mytarget)
 
 # List here all header files that users of this target (if it's a library) needs to access
 # (To be specific the files listed here is what will appear in /usr/include or /usr/local/include 
